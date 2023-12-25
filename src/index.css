@@ -1,0 +1,90 @@
+.header-css{
+  background-color: yellowgreen;
+  color : white;
+  text-align: center;
+  font-weight: 900;
+  font-size: 24px;
+  padding: 20px;
+  margin-top: 0;
+  margin-bottom: 20vh;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(75, 76, 78);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul{
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
+.list-css{
+  display : grid;
+  grid-template-columns: 1fr 2fr 1fr ;
+  justify-items: center;
+  border: solid 1px white;
+  padding: 8px;
+  margin-bottom : 4px;
+  color: white;
+}
+.form-css{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding : 8px;
+  border: solid greenyellow 2px;
+  margin-bottom: 8px;
+
+}
+.input-css{
+  /* background-color: transparent; */
+  border: none;
+  border-radius: 2px;
+}
+.add-css{
+  background-color: transparent;
+  border : none;
+  height: 48px;
+  width : 48px;
+  justify-self: center;
+  cursor: pointer;
+}
+.add-css:hover{
+  background-color: yellowgreen;
+}
+.addicon-css{
+  color: white;
+  height: 24px;
+  width : 24px;
+}
+.search-form-css{
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  border : solid 2px blue;
+  padding : 8px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  
+}
+.search-css{
+  background-color: transparent;
+  border : none;
+  height: 48px;
+  width : 48px;
+  justify-self: center;
+  cursor: pointer;
+}
+.search-css:hover{
+  background-color: blue;
+}

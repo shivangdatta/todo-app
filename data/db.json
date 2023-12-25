@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "wash clothes",
+      "checkbox": false
+    },
+    {
+      "id": 2,
+      "name": "wash utensils",
+      "checkbox": true
+    },
+    {
+      "id": 3,
+      "name": "go gym",
+      "checkbox": false
+    },
+    {
+      "id": 6,
+      "name": "help",
+      "checkbox": false
+    }
+  ]
+}
